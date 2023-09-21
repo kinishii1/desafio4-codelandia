@@ -99,6 +99,7 @@ form input[type=password] {
 }
 
 .login-options label {
+  margin-left: 4px;
   color: #1A202C;
   font-family: Lato;
   font-size: 14px;
@@ -106,22 +107,78 @@ form input[type=password] {
 }
 
 .login-options input {
-  appearance: none;
   width: 11px;
   height: 11px;
-  border: 1px solid black;
+  background-color: white;
   border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
   cursor: pointer;
 }
 
 .login-options input:checked {
-  background-color: #04C35C ;
+  background-color: gray;
 }
 
 .login-options a {
   text-decoration: none;
   color: #2B6CB0;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.enter,
+.enter-google {
+  height: 50px;
+  width: 100%;
+  border: none;
+}
+
+.enter {
+  margin-bottom: 15px;
+  color: #FFF;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  background: #04C35C;
+}
+
+.enter-google {
+  color: #FFF;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  background: #1A202C;
+  position: relative
+}
+
+.enter-google img {
+  position: absolute;
+  left: 61px;
+  top: 15px;
+}
+
+.create-account {
+  margin: 162px 0 0 50px;
+}
+
+.create-account p{
+  color: #1A202C;
 font-family: Lato;
-font-size: 14px;
+font-size: 16px;
 font-weight: 400;
+}
+
+.create-account a{
+  color: #2B6CB0;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
 }
